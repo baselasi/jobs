@@ -1,0 +1,38 @@
+.job-continer{
+    border: 2px solid;
+    border-color: black;
+    width: 40%;
+    margin: 10px;
+    padding: 1%;
+    text-decoration: none;
+    color: black;
+}
+.main-continer{
+    display: flex;
+    flex-wrap: wrap ;
+    width: 100%;
+    justify-content: space-around;
+}
+.blue-text{
+    color: blue;
+    font-weight: 500;
+}
+.title{
+    font-weight: 500;
+}
+.conitner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn{
+    border-radius: 10px;
+    height: 2rem;
+    width: 6rem;
+}
+.btn:hover{
+    background-color: #475569;
+}
+.job-continer:hover{
+    background-color: beige;
+}
